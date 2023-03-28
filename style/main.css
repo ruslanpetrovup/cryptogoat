@@ -121,7 +121,8 @@
   padding: 50px 0 232px 0;
   background-color: #1c1818;
   opacity: 0;
-  transition: opacity 550ms linear;
+  transition: opacity 850ms linear;
+  transition-delay: 450ms;
 }
 .discussion.active {
   opacity: 1;
@@ -193,7 +194,8 @@
   padding: 50px 0 100px 0;
   background-color: #1c1818;
   opacity: 0;
-  transition: opacity 550ms linear;
+  transition: opacity 850ms linear;
+  transition-delay: 450ms;
 }
 
 .speakers.active {
@@ -271,7 +273,8 @@
   background-color: #f2f2f2;
   padding: 50px 0 178px 0;
   opacity: 0;
-  transition: opacity 550ms linear;
+  transition: opacity 850ms linear;
+  transition-delay: 450ms;
 }
 
 .sponsors.active {
