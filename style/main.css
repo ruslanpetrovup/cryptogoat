@@ -1,0 +1,266 @@
+.header {
+  background-color: #1c1818;
+  border-bottom: 1px solid #000000;
+  padding: 21px 0;
+  padding-bottom: 20px;
+}
+.header-navigation {
+  display: flex;
+}
+
+.header-navigation-menu {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  margin-left: auto;
+}
+
+.header-navigation-menu-link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #f1e92d;
+}
+
+.hero {
+  background-color: #1c1818;
+  padding: 50px 0 130px 0;
+}
+
+.hero-time {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+  color: #f1e92d;
+  margin-bottom: 25px;
+}
+.hero-title {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.hero-desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 80px;
+  max-width: 990px;
+}
+
+.hero-timer {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 29px 0;
+}
+
+.hero-timer-number {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-timer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f4ee60;
+  width: 261px;
+  height: 212px;
+}
+
+.hero-timer-item-score {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 80px;
+  color: #1c1818;
+  margin-bottom: 16px;
+}
+
+.hero-timer-item-days,
+.hero-timer-item-hours,
+.hero-timer-item-minutes {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1c1818;
+}
+
+.discussion {
+  padding: 50px 0 232px 0;
+  background-color: #1c1818;
+}
+
+.discussion-title {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.discussion-desc {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #f1e92d;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.discussion-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 80px;
+}
+.discussion-trends {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.discussion-trends-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.discussion-trends-number {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 152px;
+  color: #f1e92d;
+  min-width: 151px;
+}
+
+.discussion-trends-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+  max-width: 458px;
+}
+
+.speakers {
+  padding: 50px 0 100px 0;
+  background-color: #1c1818;
+}
+
+.speakers-title {
+  color: #ffffff;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.speakers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.speakers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: calc((100% - 180px) / 4);
+}
+
+.speakers-image {
+  width: 286px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.speakers-image-img {
+  display: block;
+  width: 100%;
+}
+.speakers-head {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 24px;
+  color: #f1e92d;
+  text-align: center;
+  width: 356px;
+  margin-top: 30px;
+}
+.speakers-second {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  color: #f1e92d;
+  text-align: center;
+  margin-top: 18px;
+  max-width: 294px;
+}
+
+.sponsors {
+  background-color: #f2f2f2;
+  padding: 50px 0 178px 0;
+}
+
+.sponsors-title {
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #222020;
+  text-align: center;
+  margin-bottom: 156px;
+}
+
+.sponsors-list {
+  display: flex;
+  gap: 20px;
+}
+
+.sponsors-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 305px;
+  height: 250px;
+  background-color: #f1e92d;
+}
+
+.sponsors-img {
+  width: 70%;
+}
