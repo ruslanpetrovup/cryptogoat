@@ -186,6 +186,7 @@
 .speakers-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 60px;
 }
 
@@ -194,7 +195,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: calc((100% - 180px) / 4);
+  /* width: calc((100% - 180px) / 4); */
 }
 
 .speakers-image {
