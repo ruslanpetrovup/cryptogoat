@@ -1,4 +1,4 @@
-const countdown = new Date("2023-12-31T23:59:59").getTime(); // задаем дату окончания отсчета в формате ГГГГ-ММ-ДДTЧЧ:ММ:СС
+const countdown = new Date("2023-05-13T18:30:00").getTime(); // задаем дату окончания отсчета в формате ГГГГ-ММ-ДДTЧЧ:ММ:СС
 const daysTimer = document.getElementById("days");
 const minutesTimer = document.getElementById("hours");
 const secondsTimer = document.getElementById("minutes");
@@ -17,11 +17,10 @@ const interval = setInterval(function () {
 
   daysTimer.innerHTML = days;
   minutesTimer.innerHTML = hours;
-  secondsTimer.innerHTML = seconds;
+  secondsTimer.innerHTML = minutes;
 
   if (distance < 0) {
     // если время истекло, выводим сообщение
     clearInterval(interval);
-    timer.innerHTML = "EXPIRED";
   }
 }, 1000);
